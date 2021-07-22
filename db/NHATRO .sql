@@ -176,7 +176,7 @@ values	(N'P101',1,30,3300000,N'Phòng mới',1,1),
 		(N'P404',4,60,6300000,N'Phòng mới',1,1),
 		(N'P505',5,70,7300000,N'Phòng mới',1,1)
 
-	   ,(N'P101',1,30,3300000,N'Phòng mới',0,2),
+	,(N'P101',1,30,3300000,N'Phòng mới',0,2),
 		(N'P202',2,40,4300000,N'Phòng mới',0,2),
 		(N'P303',3,50,5300000,N'Phòng mới',0,2),
 		(N'P404',4,60,6300000,N'Phòng mới',0,2),
@@ -292,16 +292,13 @@ insert into SU_CO
 values (N'1',N'1',N'1',N'1',N'1',N'1', 0)
 
 insert TAI_KHOAN(TaiKhoan, MatKhau, IdKhachThue, Roles)
-values (N'KhachThue1',N'12345',1,0),
-(N'KhachThue2',N'12345',2,0),
-(N'KhachThue3',N'12345',3,0),
-(N'KhachThue4',N'12345',4,0),
-(N'KhachThue5',N'12345',5,0),
+values (N'KhachThue1',N'KhachThue',1,0),
+(N'KhachThue2',N'KhachThue',2,0),
+(N'KhachThue3',N'KhachThue',3,0),
+(N'KhachThue4',N'KhachThue',4,0),
+(N'KhachThue5',N'KhachThue',5,0),
 (N'admin',N'12345',null,1)
 
 
+
 select * from TAI_KHOAN
-select * from Su_Co
-select * from MO_TA
-select * from PHONG
-select * from HOA_DON
